@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+body {
+  background: #000;
+  color: #fff;
+}
+.contenedor {
+  width: auto;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(../image/fodndonetflix.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+
+.logo img {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+select {
+  border: 0;
+  outline: 0;
+  opacity: 0.5;
+  color: #607274;
+  padding: 9px 20px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#sesion {
+  border: 0;
+  outline: 0;
+  background: #db0001;
+  color: #fff;
+  padding: 9px 20px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.principal main {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 40px;
+  margin-top: 3px;
+}
+p {
+  font-size: 20px;
+  margin: 3px;
+}
+.label {
+  display: flex;
+  border: none;
+  margin-left: 20%;
+  width: 300px;
+  height: 600px;
+}
+
+#email {
+  padding-left: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+
+.comenzar {
+  border: 0;
+  outline: 0;
+  background: #db0001;
+  color: #fff;
+  padding: 11px 20px;
+  font-size: 15px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
