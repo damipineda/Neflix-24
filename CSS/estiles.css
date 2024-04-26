@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
   background: #000;
@@ -15,7 +15,7 @@ body {
   background-size: cover;
   background-position: center;
   padding: 10px 8%;
-  position: relative;
+ /** position: relative;**/
 }
 
 .logo img {
@@ -31,12 +31,13 @@ nav {
 }
 
 select {
-  border: 0;
   outline: 0;
+  background: transparent;
   opacity: 0.5;
-  color: #607274;
+  color: #fff;
   padding: 9px 20px;
   font-size: 12px;
+  border: 2px solid #fff;
   border-radius: 4px;
   margin-left: 10px;
   cursor: pointer;
@@ -53,25 +54,35 @@ select {
   margin-left: 10px;
   cursor: pointer;
 }
-
-.principal main {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 10%;
-  display: flex;
-  position: relative;
-  text-align: center;
+.principal{
+ grid-gap: 95px;
 }
+.principal main {
+ /** margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%; **/
+  gap: 100px;
+  display: flex;
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  top: 300px;
+  bottom: 100px;
+  text-align: center;
+  align-content: center; 
+  justify-content: center;
+}
+
 h1 {
   font-size: 60px;
 }
 h3 {
   font-size: 40px;
-  margin-top: 3px;
+  margin-top: 4px;
 }
 p {
-  font-size: 20px;
-  margin: 3px;
+  font-size: 15px;
+  margin: 8px;
 }
 .label {
   display: flex;
@@ -83,22 +94,26 @@ p {
 
 #email {
   padding-left: 200px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #fff;
   font-size: 15px;
   margin-top: 10px;
-  border: 0;
+  background: #A9A9A9;
+  border: 2px solid red;
   border-radius: 5px;
   opacity: 0.5;
 }
+
 
 .comenzar {
   border: 0;
   outline: 0;
   background: #db0001;
   color: #fff;
-  padding: 11px 20px;
-  font-size: 15px;
+  padding: 18px 30px;
+  font-size: 25px;
   border-radius: 4px;
   margin-left: 10px;
   cursor: pointer;
